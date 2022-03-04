@@ -98,7 +98,7 @@ footer > h1 {
 .main-content {
     margin: 40px 30px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
 }
 
