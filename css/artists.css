@@ -95,6 +95,11 @@ footer > h1 {
 
 }
 
+footer a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 .main-content {
     margin: 40px 30px;
     display: flex;
