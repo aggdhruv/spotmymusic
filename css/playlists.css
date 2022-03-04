@@ -94,3 +94,107 @@ footer > h1 {
     font-size: 30px;
 
 }
+
+.main-content {
+    margin: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+.playlist {
+    width: 24%;
+    border: 3px solid #1ed760;
+    padding: 20px 20px 0px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.playlist:hover {
+    background-color: #201c1c;
+}
+
+.playlist-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.playlist-details {
+    color: white;
+}
+
+.playlist-name {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.playlist-description {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.playlist-items {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.playlist-items > li {
+    margin: 0 5px;
+    width: 125px;
+    padding: 5px;
+    border: 1px solid #1db954;
+    border-radius: 15px;
+    background-color: #1db954;
+    font-weight: 700;
+}
+
+.playlist-songs-header {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.playlist-songs-items {
+    list-style: none;
+    padding-left: 0;
+    margin-top: -5px;
+}
+
+.playlist-song {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.playlist-song > img {
+    width: 40px;
+    height: 40px;
+}
+
+.song-info {
+    margin-left: 15px;
+}
+
+.song-name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.song-artist {
+    font-size: 9px;
+    opacity: 0.8;
+    margin-top: -10px;
+}
